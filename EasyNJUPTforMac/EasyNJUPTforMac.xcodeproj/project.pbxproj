@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2237D941BB312C0008E6450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2237D931BB312C0008E6450 /* AppDelegate.m */; };
+		B2237D961BB312C0008E6450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2237D951BB312C0008E6450 /* main.m */; };
+		B2237D981BB312C0008E6450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2237D971BB312C0008E6450 /* Images.xcassets */; };
+		B2237D9B1BB312C0008E6450 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2237D991BB312C0008E6450 /* MainMenu.xib */; };
+		B2237DA71BB312C0008E6450 /* EasyNJUPTforMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2237DA61BB312C0008E6450 /* EasyNJUPTforMacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2237DA11BB312C0008E6450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2237D851BB312C0008E6450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2237D8C1BB312C0008E6450;
+			remoteInfo = EasyNJUPTforMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2237D8D1BB312C0008E6450 /* EasyNJUPTforMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNJUPTforMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2237D911BB312C0008E6450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2237D921BB312C0008E6450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2237D931BB312C0008E6450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2237D951BB312C0008E6450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2237D971BB312C0008E6450 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2237D9A1BB312C0008E6450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B2237DA01BB312C0008E6450 /* EasyNJUPTforMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNJUPTforMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2237DA51BB312C0008E6450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2237DA61BB312C0008E6450 /* EasyNJUPTforMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNJUPTforMacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2237D8A1BB312C0008E6450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2237D9D1BB312C0008E6450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2237D841BB312C0008E6450 = {
+			isa = PBXGroup;
+			children = (
+				B2237D8F1BB312C0008E6450 /* EasyNJUPTforMac */,
+				B2237DA31BB312C0008E6450 /* EasyNJUPTforMacTests */,
+				B2237D8E1BB312C0008E6450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2237D8E1BB312C0008E6450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2237D8D1BB312C0008E6450 /* EasyNJUPTforMac.app */,
+				B2237DA01BB312C0008E6450 /* EasyNJUPTforMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2237D8F1BB312C0008E6450 /* EasyNJUPTforMac */ = {
+			isa = PBXGroup;
+			children = (
+				B2237D921BB312C0008E6450 /* AppDelegate.h */,
+				B2237D931BB312C0008E6450 /* AppDelegate.m */,
+				B2237D971BB312C0008E6450 /* Images.xcassets */,
+				B2237D991BB312C0008E6450 /* MainMenu.xib */,
+				B2237D901BB312C0008E6450 /* Supporting Files */,
+			);
+			path = EasyNJUPTforMac;
+			sourceTree = "<group>";
+		};
+		B2237D901BB312C0008E6450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2237D911BB312C0008E6450 /* Info.plist */,
+				B2237D951BB312C0008E6450 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2237DA31BB312C0008E6450 /* EasyNJUPTforMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2237DA61BB312C0008E6450 /* EasyNJUPTforMacTests.m */,
+				B2237DA41BB312C0008E6450 /* Supporting Files */,
+			);
+			path = EasyNJUPTforMacTests;
+			sourceTree = "<group>";
+		};
+		B2237DA41BB312C0008E6450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2237DA51BB312C0008E6450 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2237D8C1BB312C0008E6450 /* EasyNJUPTforMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2237DAA1BB312C0008E6450 /* Build configuration list for PBXNativeTarget "EasyNJUPTforMac" */;
+			buildPhases = (
+				B2237D891BB312C0008E6450 /* Sources */,
+				B2237D8A1BB312C0008E6450 /* Frameworks */,
+				B2237D8B1BB312C0008E6450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNJUPTforMac;
+			productName = EasyNJUPTforMac;
+			productReference = B2237D8D1BB312C0008E6450 /* EasyNJUPTforMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2237D9F1BB312C0008E6450 /* EasyNJUPTforMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2237DAD1BB312C0008E6450 /* Build configuration list for PBXNativeTarget "EasyNJUPTforMacTests" */;
+			buildPhases = (
+				B2237D9C1BB312C0008E6450 /* Sources */,
+				B2237D9D1BB312C0008E6450 /* Frameworks */,
+				B2237D9E1BB312C0008E6450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2237DA21BB312C0008E6450 /* PBXTargetDependency */,
+			);
+			name = EasyNJUPTforMacTests;
+			productName = EasyNJUPTforMacTests;
+			productReference = B2237DA01BB312C0008E6450 /* EasyNJUPTforMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2237D851BB312C0008E6450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = BHFaction;
+				TargetAttributes = {
+					B2237D8C1BB312C0008E6450 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B2237D9F1BB312C0008E6450 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B2237D8C1BB312C0008E6450;
+					};
+				};
+			};
+			buildConfigurationList = B2237D881BB312C0008E6450 /* Build configuration list for PBXProject "EasyNJUPTforMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2237D841BB312C0008E6450;
+			productRefGroup = B2237D8E1BB312C0008E6450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2237D8C1BB312C0008E6450 /* EasyNJUPTforMac */,
+				B2237D9F1BB312C0008E6450 /* EasyNJUPTforMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2237D8B1BB312C0008E6450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2237D981BB312C0008E6450 /* Images.xcassets in Resources */,
+				B2237D9B1BB312C0008E6450 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2237D9E1BB312C0008E6450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2237D891BB312C0008E6450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2237D961BB312C0008E6450 /* main.m in Sources */,
+				B2237D941BB312C0008E6450 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2237D9C1BB312C0008E6450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2237DA71BB312C0008E6450 /* EasyNJUPTforMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2237DA21BB312C0008E6450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2237D8C1BB312C0008E6450 /* EasyNJUPTforMac */;
+			targetProxy = B2237DA11BB312C0008E6450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2237D991BB312C0008E6450 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2237D9A1BB312C0008E6450 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2237DA81BB312C0008E6450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2237DA91BB312C0008E6450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2237DAB1BB312C0008E6450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EasyNJUPTforMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2237DAC1BB312C0008E6450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EasyNJUPTforMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2237DAE1BB312C0008E6450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyNJUPTforMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNJUPTforMac.app/Contents/MacOS/EasyNJUPTforMac";
+			};
+			name = Debug;
+		};
+		B2237DAF1BB312C0008E6450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyNJUPTforMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNJUPTforMac.app/Contents/MacOS/EasyNJUPTforMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2237D881BB312C0008E6450 /* Build configuration list for PBXProject "EasyNJUPTforMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2237DA81BB312C0008E6450 /* Debug */,
+				B2237DA91BB312C0008E6450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2237DAA1BB312C0008E6450 /* Build configuration list for PBXNativeTarget "EasyNJUPTforMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2237DAB1BB312C0008E6450 /* Debug */,
+				B2237DAC1BB312C0008E6450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2237DAD1BB312C0008E6450 /* Build configuration list for PBXNativeTarget "EasyNJUPTforMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2237DAE1BB312C0008E6450 /* Debug */,
+				B2237DAF1BB312C0008E6450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2237D851BB312C0008E6450 /* Project object */;
+}
